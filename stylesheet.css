@@ -1,0 +1,361 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+  background-image: url('https://wallpaperset.com/w/full/9/8/a/32795.jpg');
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+section{
+height: 100%;
+width: 100%;
+display: flex;  
+flex-direction: row;
+align-items: center;
+justify-content: center;
+}
+.clean-box{
+margin-left:5%;
+height: 100%;
+width: 90%;
+}
+
+img{
+  border-radius: 50%;
+}
+
+.center-part{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+.main-part{
+  /* border: 2px solid white; */
+  height: 500px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+
+h2,h3,p,a{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: azure;
+  text-decoration: none;
+}
+#subtag{
+  margin-left:-25px ;
+}
+
+.li-gap{
+  margin:0 10px 0 10px;
+}
+
+.img-gap{
+  margin:10% 0 0 10%;
+  
+}
+
+
+
+/* 2nd section */
+
+.second-sect{
+height: 100%;
+width: 100%;
+/* background-color: rgb(238, 238, 238); */
+background-color: #edebf1;
+}
+.about-me{
+position: relative;
+height: 100%;
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+}
+
+.card{
+  text-align: left;
+  overflow: hidden;
+}
+.me-section {
+height: 50%;
+width: 65%;
+text-align: left;
+overflow: hidden;
+background-image: url('https://wallpaperset.com/w/full/9/8/a/32795.jpg');
+background-position:100%;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.image-2{
+position: absolute;
+left:59%;
+height: 65%;
+width: 25%;
+background-image:url('./images/bhav-main6.jpg');
+background-position:top;
+background-repeat: no-repeat;
+background-size: cover;
+object-fit: cover;
+}
+
+
+
+.white{
+text-align: left;
+font-size:16px;
+color:#fff;
+width: 58%;
+padding-left:20px ;
+
+}
+h1{
+padding:20px 0 0 20px ;
+color:#fff;
+}
+.box{
+border: 2px solid ;
+}
+ul.white{
+padding-left: 40px;
+list-style:symbols(☸) ;
+}
+/* third-sect */
+
+.third-sect{
+height: 100%;
+width: 100%;
+background-color: #fff;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.card-text{
+color: black;
+}
+div.project-card{
+margin:0 0 0 5%;
+border: 2px solid black;
+box-shadow: 20px 20px 20px rgba(12, 12, 12, 0.5);
+
+}
+.center-card{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+height: 100%;
+margin-right: 5%;
+}
+div.card img{
+border-radius: 0%;
+}
+
+.black-hp{
+color:rgb(46, 33, 33);
+}
+.dark{
+background-color: rgb(185, 13, 13);
+}
+
+p img{
+border-radius: 0%;
+}
+.footer{
+background-color:rgb(241, 223, 223);
+height: max-content;
+}
+.img-size{
+height: 280px;
+width:300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsivness */
+@media (min-width: 1281px) {
+
+  
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+      
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* .center-part{
+      margin-left: 10%;
+  }
+  .image-2{
+    top:0%;
+    left:-5%;
+    height: 40%;
+    max-width: 100%;
+    background-image: url('https://i.pinimg.com/564x/a4/24/40/a42440fcb66eb1b0a2d944284dac1431.jpg');
+    object-fit: cover;
+   border: 2px solid black;
+
+  }
+
+  .me-section{
+    top:19%;
+   border: 2px solid rgb(167, 10, 10);
+   height: 60%;
+   width: 100%; 
+  text-align: center;
+  overflow:hidden;
+  }
+  .card{
+    border:20px solid rgb(136, 20, 20);
+  }
+  .white{
+    text-align: left;
+    font-size:16px;
+    color:#fff;
+    width: 95%;
+  }  
+
+  div.project-card{
+    margin:5% 0 0 0;
+    border: 2px solid black;
+    box-shadow: 20px 20px 20px rgba(12, 12, 12, 0.5);
+    width: 400px;
+  }
+  
+.third-sect{
+height: max-content;
+width: 100%;
+background-color: #fff;
+display: flex;
+justify-content: center;
+align-items: center;
+} */
+
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  
+  .center-part{
+    margin-left: 10%;
+}
+.image-2{
+  top:0%;
+  left:0%;
+  height: 40%;
+  width: 100%;
+  background-image:url('./images/bhav-main6.jpg');
+  background-position:top;
+  background-repeat: no-repeat;
+  background-size:cover;
+  border:1px solid black;
+}
+
+.me-section{
+  top:19%;
+ border: 2px solid rgb(167, 10, 10);
+ height: 60%;
+ width: 100%; 
+text-align: center;
+overflow:hidden;
+}
+.card{
+  border:20px solid rgb(136, 20, 20);
+}
+.white{
+  text-align: left;
+  font-size:16px;
+  color:#fff;
+  width: 95%;
+}  
+
+div.project-card{
+  margin:5% 0 0 0;
+  border: 2px solid black;
+  box-shadow: 20px 20px 20px rgba(12, 12, 12, 0.5);
+  width: 400px;
+
+}
+
+
+.third-sect{
+height: max-content;
+width: 100%;
+background-color: #fff;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+}
